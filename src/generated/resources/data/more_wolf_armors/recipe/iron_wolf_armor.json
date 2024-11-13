@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "base": {
+    "item": "minecraft:wolf_armor"
+  },
+  "result": {
+    "count": 1,
+    "id": "more_wolf_armors:iron_wolf_armor"
+  },
+  "template": {
+    "item": "more_wolf_armors:wolf_armor_upgrade_template"
+  }
+}

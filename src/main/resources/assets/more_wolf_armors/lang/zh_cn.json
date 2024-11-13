@@ -1,0 +1,10 @@
+{
+	"item.more_wolf_armors.iron_wolf_armor": "铁狼铠",
+	"item.more_wolf_armors.wolf_armor_upgrade_template": "狼铠升级模版",
+	"more_wolf_armors.configuration.section.more.wolf.armors.client.toml": "更多狼铠 - 客户端配置",
+	"more_wolf_armors.configuration.section.more.wolf.armors.client.toml.title": "更多狼铠 - 客户端配置",
+	"more_wolf_armors.configuration.section.more.wolf.armors.server.toml": "更多狼铠 - 服务端配置",
+	"more_wolf_armors.configuration.section.more.wolf.armors.server.toml.title": "更多狼铠 - 服务端配置",
+	"more_wolf_armors.configuration.title": "更多狼铠 - 配置",
+	"more_wolf_armors.title": "更多狼铠"
+}

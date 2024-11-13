@@ -1,0 +1,10 @@
+{
+  "item.more_wolf_armors.iron_wolf_armor": "Iron Wolf Armor",
+  "item.more_wolf_armors.wolf_armor_upgrade_template": "Wolf Armor Upgrade Template",
+  "more_wolf_armors.configuration.section.more.wolf.armors.client.toml": "More Wolf Armors Client Configuration",
+  "more_wolf_armors.configuration.section.more.wolf.armors.client.toml.title": "More Wolf Armors Client Configuration",
+  "more_wolf_armors.configuration.section.more.wolf.armors.server.toml": "More Wolf Armors Server Configuration",
+  "more_wolf_armors.configuration.section.more.wolf.armors.server.toml.title": "More Wolf Armors Server Configuration",
+  "more_wolf_armors.configuration.title": "More Wolf Armors Configuration",
+  "more_wolf_armors.title": "More Wolf Armors"
+}
