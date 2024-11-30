@@ -1,9 +1,10 @@
-// 1.21.1	2024-11-13T21:59:16.88476	Registrate Provider for more_wolf_armors [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider, Tags (mob_effect), Tags (attribute), Tags (enchantment)]
-7925ffce41c32332337fa9648e5472c01359c342 assets/more_wolf_armors/lang/en_ud.json
-148e5af68523b49907f03e0e0f9e4fbe528a95d5 assets/more_wolf_armors/lang/en_us.json
+// 1.21.1	2024-11-30T20:40:29.704678	Registrate Provider for more_wolf_armors [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider, Tags (mob_effect), Tags (attribute), Tags (enchantment)]
+94234181d2ba0457ed415db82997b196ef5e5531 assets/more_wolf_armors/lang/en_ud.json
+37f49547e8568780d938a7da5f130957a47d52ba assets/more_wolf_armors/lang/en_us.json
+eaae87dc3863db6f205a5466610fec5faddf669b assets/more_wolf_armors/models/item/gold_wolf_armor.json
 d97fe4547b871cdfdd39108eb2928273dd4ccee9 assets/more_wolf_armors/models/item/iron_wolf_armor.json
 b922109076c92356e6492f640a5311b01def89e7 assets/more_wolf_armors/models/item/wolf_armor_upgrade_template.json
-d533ef127d390108a80cbec23f8bf31b684c9d26 data/c/tags/item/wolf_armor.json
+88a28e93f997e706fafa50994b147cbd771ec345 data/c/tags/item/wolf_armor.json
 8db15770226b49a739879fe68ca9038c57d5cad9 data/more_wolf_armors/advancement/recipes/combat/iron_wolf_armor.json
 93e2b800471e2018c542fa4374e21abfc5166ba5 data/more_wolf_armors/advancement/recipes/combat/wolf_armor_upgrade_template.json
 2e6ed17a2c7979e3f04b1cc9b515d42cc2382092 data/more_wolf_armors/recipe/iron_wolf_armor.json
