@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "more_wolf_armors:diamond_wolf_armor"
+  },
+  "result": {
+    "count": 1,
+    "id": "more_wolf_armors:netherite_wolf_armor"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

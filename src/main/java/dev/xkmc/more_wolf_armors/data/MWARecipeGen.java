@@ -31,6 +31,30 @@ public class MWARecipeGen {
 				RecipeCategory.COMBAT,
 				MWAItems.IRON.get())::unlocks, MWAItems.TEMPLATE.get())
 				.save(pvd, MWAItems.IRON.getId());
+
+		unlock(pvd, SmithingTransformRecipeBuilder.smithing(
+				Ingredient.of(MWAItems.TEMPLATE),
+				Ingredient.of(Items.WOLF_ARMOR),
+				Ingredient.of(Items.GOLD_BLOCK),
+				RecipeCategory.COMBAT,
+				MWAItems.GOLD.get())::unlocks, MWAItems.TEMPLATE.get())
+				.save(pvd, MWAItems.GOLD.getId());
+
+		unlock(pvd, SmithingTransformRecipeBuilder.smithing(
+				Ingredient.of(MWAItems.TEMPLATE),
+				Ingredient.of(Items.WOLF_ARMOR),
+				Ingredient.of(Items.DIAMOND_BLOCK),
+				RecipeCategory.COMBAT,
+				MWAItems.DIAMOND.get())::unlocks, MWAItems.TEMPLATE.get())
+				.save(pvd, MWAItems.DIAMOND.getId());
+
+		unlock(pvd, SmithingTransformRecipeBuilder.smithing(
+				Ingredient.of(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+				Ingredient.of(MWAItems.DIAMOND.get()),
+				Ingredient.of(Items.NETHERITE_INGOT),
+				RecipeCategory.COMBAT,
+				MWAItems.NETHERITE.get())::unlocks, Items.NETHERITE_INGOT)
+				.save(pvd, MWAItems.NETHERITE.getId());
 	}
 
 	public static <T> T unlock(RegistrateRecipeProvider pvd, BiFunction<String, Criterion<InventoryChangeTrigger.TriggerInstance>, T> func, Item item) {

@@ -1,6 +1,8 @@
 {
+  "item.more_wolf_armors.diamond_wolf_armor": "Diamond Wolf Armor",
   "item.more_wolf_armors.gold_wolf_armor": "Gold Wolf Armor",
   "item.more_wolf_armors.iron_wolf_armor": "Iron Wolf Armor",
+  "item.more_wolf_armors.netherite_wolf_armor": "Netherite Wolf Armor",
   "item.more_wolf_armors.wolf_armor_upgrade_template": "Wolf Armor Upgrade Template",
   "more_wolf_armors.configuration.section.more.wolf.armors.client.toml": "More Wolf Armors Client Configuration",
   "more_wolf_armors.configuration.section.more.wolf.armors.client.toml.title": "More Wolf Armors Client Configuration",
