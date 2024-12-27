@@ -18,22 +18,22 @@ public class MWAItems {
 
 		IRON = MoreWolfArmors.REGISTRATE.item("iron_wolf_armor", p -> new WolfArmorItem(
 				ArmorMaterials.IRON, false, () -> Items.IRON_INGOT,
-				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(15))
+				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(6))
 		)).tag(MWATagGen.WOLF_ARMORS).register();
 
 		GOLD = MoreWolfArmors.REGISTRATE.item("gold_wolf_armor", p -> new WolfArmorItem(
 				ArmorMaterials.GOLD, false, () -> Items.GOLD_INGOT,
-				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(7))
+				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(5))
 		)).tag(MWATagGen.WOLF_ARMORS).register();
 
 		DIAMOND = MoreWolfArmors.REGISTRATE.item("diamond_wolf_armor", p -> new WolfArmorItem(
 				ArmorMaterials.DIAMOND, false, () -> Items.DIAMOND,
-				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(33))
+				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(10))
 		)).tag(MWATagGen.WOLF_ARMORS).register();
 
 		NETHERITE = MoreWolfArmors.REGISTRATE.item("netherite_wolf_armor", p -> new WolfArmorItem(
 				ArmorMaterials.NETHERITE, false, () -> Items.NETHERITE_INGOT,
-				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(37))
+				new Item.Properties().durability(ArmorItem.Type.BODY.getDurability(14))
 		)).tag(MWATagGen.WOLF_ARMORS).register();
 	}
 

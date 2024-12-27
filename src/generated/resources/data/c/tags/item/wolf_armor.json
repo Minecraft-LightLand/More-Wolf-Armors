@@ -1,8 +1,6 @@
 {
   "values": [
-    "more_wolf_armors:iron_wolf_armor",
-    "more_wolf_armors:gold_wolf_armor",
-    "more_wolf_armors:diamond_wolf_armor",
-    "more_wolf_armors:netherite_wolf_armor"
+    "#more_wolf_armors:wolf_armor",
+    "minecraft:wolf_armor"
   ]
 }

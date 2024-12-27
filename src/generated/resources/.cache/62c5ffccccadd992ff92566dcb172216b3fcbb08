@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-25T09:03:27.305404	Registrate Provider for more_wolf_armors [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider, Tags (mob_effect), Tags (attribute), Tags (enchantment)]
+// 1.21.1	2024-12-25T16:37:36.647702	Registrate Provider for more_wolf_armors [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider, Tags (mob_effect), Tags (attribute), Tags (enchantment)]
 8919488d3575ece91ee7832ff028fb455075955e assets/more_wolf_armors/lang/en_ud.json
 d4e143ff76eb427796b8a6206e22cffb07a7f4c7 assets/more_wolf_armors/lang/en_us.json
 081ad831c6597e0ec765d1288fd8730fb7c567ec assets/more_wolf_armors/models/item/diamond_wolf_armor.json
@@ -6,7 +6,9 @@ eaae87dc3863db6f205a5466610fec5faddf669b assets/more_wolf_armors/models/item/gol
 d97fe4547b871cdfdd39108eb2928273dd4ccee9 assets/more_wolf_armors/models/item/iron_wolf_armor.json
 bdaee582d13eff47678d95ce2a2ff2f8eecd82ad assets/more_wolf_armors/models/item/netherite_wolf_armor.json
 b922109076c92356e6492f640a5311b01def89e7 assets/more_wolf_armors/models/item/wolf_armor_upgrade_template.json
-08dff22c9e27a33c254a108a6deb7e79ec4da00c data/c/tags/item/wolf_armor.json
+b5862a9b5a5730bc6540829b2b00d1b28c1a1f70 data/c/tags/item/wolf_armor.json
+e9f1c1f6a78720b390ab833e6131b75314450b03 data/minecraft/tags/item/enchantable/armor.json
+e9f1c1f6a78720b390ab833e6131b75314450b03 data/minecraft/tags/item/enchantable/durability.json
 b8dac65e0d4cd086e520a6ebcd0a9808ea28f72b data/more_wolf_armors/advancement/recipes/combat/diamond_wolf_armor.json
 a6df23df842dfc6e182bde73b878ad8ad3056bca data/more_wolf_armors/advancement/recipes/combat/gold_wolf_armor.json
 8db15770226b49a739879fe68ca9038c57d5cad9 data/more_wolf_armors/advancement/recipes/combat/iron_wolf_armor.json
@@ -17,3 +19,4 @@ bf76853238f291b9977a4aeaaf5a7a49a1f9441a data/more_wolf_armors/advancement/recip
 2e6ed17a2c7979e3f04b1cc9b515d42cc2382092 data/more_wolf_armors/recipe/iron_wolf_armor.json
 3d0302fc507f3f1ab36603941af0c0f7ab796b27 data/more_wolf_armors/recipe/netherite_wolf_armor.json
 46e0fdd153664aced33ecbc7b935ba338bf26267 data/more_wolf_armors/recipe/wolf_armor_upgrade_template.json
+08dff22c9e27a33c254a108a6deb7e79ec4da00c data/more_wolf_armors/tags/item/wolf_armor.json

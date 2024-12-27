@@ -5,6 +5,7 @@ import dev.xkmc.l2core.init.reg.registrate.L2Registrate;
 import dev.xkmc.l2serial.network.PacketHandler;
 import dev.xkmc.more_wolf_armors.data.MWAConfig;
 import dev.xkmc.more_wolf_armors.data.MWARecipeGen;
+import dev.xkmc.more_wolf_armors.data.MWATagGen;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -36,6 +37,7 @@ public class MoreWolfArmors {
 
 	@SubscribeEvent(priority = EventPriority.HIGH)
 	public static void onDataGen(GatherDataEvent event) {
+		REGISTRATE.addDataGenerator(ProviderType.ITEM_TAGS, MWATagGen::genTags);
 		REGISTRATE.addDataGenerator(ProviderType.RECIPE, MWARecipeGen::genRecipes);
 	}
 
