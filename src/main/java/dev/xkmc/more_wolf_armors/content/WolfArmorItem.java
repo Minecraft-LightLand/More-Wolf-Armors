@@ -1,16 +1,15 @@
 package dev.xkmc.more_wolf_armors.content;
 
 import com.google.common.base.Suppliers;
+import dev.xkmc.more_wolf_armors.data.MWAConfig;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.item.AnimalArmorItem;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.enchantment.Enchantment;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.function.Supplier;
@@ -52,6 +51,17 @@ public class WolfArmorItem extends AnimalArmorItem {
 	@Override
 	public ResourceLocation getTexture() {
 		return texture;
+	}
+
+	@Override
+	public boolean isEnchantable(ItemStack stack) {
+		return MWAConfig.SERVER.enchantable.get();
+	}
+
+	@Override
+	public boolean supportsEnchantment(ItemStack stack, Holder<Enchantment> enchantment) {
+		return MWAConfig.SERVER.enchantable.get() && super.supportsEnchantment(stack, enchantment) &&
+				Items.ELYTRA.getDefaultInstance().supportsEnchantment(enchantment);
 	}
 
 	@Nullable

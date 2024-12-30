@@ -7,5 +7,11 @@
 	"more_wolf_armors.title": "更多狼铠",
 	"item.more_wolf_armors.wolf_armor_upgrade_template": "狼铠升级模版",
 	"item.more_wolf_armors.iron_wolf_armor": "铁狼铠",
-	"item.more_wolf_armors.gold_wolf_armor": "金狼铠"
+	"item.more_wolf_armors.gold_wolf_armor": "金狼铠",
+	"item.more_wolf_armors.diamond_wolf_armor": "钻石狼铠",
+	"item.more_wolf_armors.netherite_wolf_armor": "下界合金狼铠",
+	"more_wolf_armors.configuration.enchantable": "狼铠附魔",
+	"more_wolf_armors.configuration.enchantable.tooltip": "让狼铠支持耐久类附魔",
+	"more_wolf_armors.configuration.ingotRepairFactor": "耐久修复比",
+	"more_wolf_armors.configuration.ingotRepairFactor.tooltip": "从0耐久修复到满耐久消耗的原料数量\n设为0来禁用修复\n默认: 8\n范围: 0 ~ 64"
 }

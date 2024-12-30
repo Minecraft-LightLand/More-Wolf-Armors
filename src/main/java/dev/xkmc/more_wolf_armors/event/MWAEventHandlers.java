@@ -1,6 +1,7 @@
 package dev.xkmc.more_wolf_armors.event;
 
 import dev.xkmc.more_wolf_armors.content.WolfArmorItem;
+import dev.xkmc.more_wolf_armors.data.MWAConfig;
 import dev.xkmc.more_wolf_armors.init.MoreWolfArmors;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionResult;
@@ -30,13 +31,14 @@ public class MWAEventHandlers {
 					event.setCanceled(true);
 				}
 			} else {
-				if (wolf.isInSittingPose() && armor.isDamaged() &&
+				int factor = MWAConfig.SERVER.ingotRepairFactor.getAsInt();
+				if (wolf.isInSittingPose() && armor.isDamaged() && factor > 0 &&
 						armor.getItem() instanceof WolfArmorItem wolfArmor &&
 						wolfArmor.getMaterial().value().repairIngredient().get().test(stack)) {
 					if (!event.getTarget().level().isClientSide()) {
 						stack.shrink(1);
 						wolf.playSound(SoundEvents.WOLF_ARMOR_REPAIR);
-						armor.setDamageValue(Math.max(0, armor.getDamageValue() - armor.getMaxDamage() / 8));
+						armor.setDamageValue(Math.max(0, armor.getDamageValue() - armor.getMaxDamage() / factor));
 					}
 					event.setCancellationResult(InteractionResult.SUCCESS);
 					event.setCanceled(true);
