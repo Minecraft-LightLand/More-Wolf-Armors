@@ -22,6 +22,6 @@ public class MWATagGen {
 	public static void genTags(RegistrateItemTagsProvider pvd) {
 		pvd.addTag(C_WOLF_ARMORS).addTag(WOLF_ARMORS).add(Items.WOLF_ARMOR);
 		pvd.addTag(ItemTags.DURABILITY_ENCHANTABLE).addTag(WOLF_ARMORS);
-		pvd.addTag(ItemTags.ARMOR_ENCHANTABLE).addTag(WOLF_ARMORS);
+		pvd.addTag(ItemTags.CHEST_ARMOR_ENCHANTABLE).addTag(WOLF_ARMORS);
 	}
 }

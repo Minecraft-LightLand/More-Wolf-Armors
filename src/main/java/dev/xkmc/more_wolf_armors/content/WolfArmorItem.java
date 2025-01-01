@@ -60,8 +60,13 @@ public class WolfArmorItem extends AnimalArmorItem {
 
 	@Override
 	public boolean supportsEnchantment(ItemStack stack, Holder<Enchantment> enchantment) {
-		return MWAConfig.SERVER.enchantable.get() && super.supportsEnchantment(stack, enchantment) &&
-				Items.ELYTRA.getDefaultInstance().supportsEnchantment(enchantment);
+		if(! MWAConfig.SERVER.enchantable.get() )
+			return false;
+		if (! super.supportsEnchantment(stack, enchantment) )
+			return false;
+		if (MWAConfig.SERVER.chestArmorEnchantable.get())
+			return true;
+		return Items.ELYTRA.getDefaultInstance().supportsEnchantment(enchantment);
 	}
 
 	@Nullable

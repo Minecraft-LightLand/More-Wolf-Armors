@@ -1,2 +1,7 @@
+0.1.4
+- Fix dyed armadillo armor rendering bug
+- Default off config: wolf armor support chest armor enchantments
+- Allow armor to be dyed
+
 0.1.3
 - Release

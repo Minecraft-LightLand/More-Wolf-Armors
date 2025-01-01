@@ -41,6 +41,8 @@ public class WolfArmorLayerMixin {
 					OverlayTexture.NO_OVERLAY,
 					FastColor.ARGB32.opaque(i)
 			);
+		} else {
+			original.call(instance, poseStack, buffer, packedLight, stack, armorItem);
 		}
 	}
 

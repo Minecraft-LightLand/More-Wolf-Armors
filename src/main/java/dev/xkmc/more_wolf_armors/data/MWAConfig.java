@@ -17,6 +17,7 @@ public class MWAConfig {
 	public static class Server extends ConfigInit {
 
 		public final ModConfigSpec.BooleanValue enchantable;
+		public final ModConfigSpec.BooleanValue chestArmorEnchantable;
 		public final ModConfigSpec.IntValue ingotRepairFactor;
 
 		Server(Builder builder) {
@@ -24,6 +25,10 @@ public class MWAConfig {
 			enchantable = builder.text("Enchantable Wolf Armor")
 					.comment("Makes wolf armors from this mod enchantable with durability enchantments")
 					.define("enchantable", true);
+			chestArmorEnchantable = builder.text("Armor Enchantments Support")
+					.comment("Makes wolf armors from this mod enchantable with chest armor enchantments.")
+					.comment("Requires previous option to be enabled as well")
+					.define("chestArmorEnchantable", false);
 			ingotRepairFactor = builder.text("Ingot Repair Factor")
 					.comment("How many ingots to consume to repair wolf armors from zero durability to full.")
 					.comment("Set it to 0 to disable repair")
